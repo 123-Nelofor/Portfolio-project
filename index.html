@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF8">
+        <meta http-equiv="X-UA_Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>
+            Minor Portfolio Project
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/436d309958.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!--Header section Starts-->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logos/ecrushlogo-removebg-preview.png" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li><a href="#">CONTACT ME</a></li>
+                        <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Poster Designer</p>
+                    <h1>Hi,I'm<span> Shaik Abdul Nelofor </span><br>From India</h1>
+                </div>
+            </div>
+        </div>
+        <!--Header section ends-->
+
+        <!--About section starts here-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                  <div class="about-col-1">
+                     <img src="logos/My-pic.jpeg" alt="User-image">
+                  </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                            <p>A webpage can contain various links that take you directly to other pages and even specific parts of a given page.These links are known as hyperlinks.Hyperlinks allow visitors to navigate between Web sites by clicking on words, phrases, and images.Thus you can create hyperlinks using text or images available on a webpage.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('expertise')">Expertise</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Poster Designing</span><br>Designing Event posters and Templets</li>
+                                <li><span>Web Development</span><br>Designing Creative websites</li>
+                                <li><span>Graphic Designing</span><br>Creating Event posters and Templets for social media</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="expertise">
+                            <ul>
+                                <li><span>2024 present</span><br>Studying in IIIT,RGUKT ,Nuzvid</li>
+                                <li><span>2024 present</span><br>Student of RGUKT of PUC-2</li>
+                                <li><span>2023-2024</span><br>Creating Event posters and Templets for social media</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024 at present</span><br>PUC-2,RGUKT,NUzvid</li>
+                                <li><span>2021-2023</span><br>SSC-ZPHS ,Girls</li>
+                                <li><span>2019-2021</span><br>SSC-Teja Brilliant High School</li>
+                            </ul>
+                      </div>
+                  </div>
+             </div>
+         </div>
+     </div>
+         <!--About section ends here-->
+
+
+         <!--Service section Starts here-->
+            <div id="services">
+              <div class="container">
+                  <h1 class="sub-title"> MY Services</h1>
+                  <div class="service-list">
+                       <div>
+                          <i class="fa-solid fa-code"></i>
+                          <h2>Web Development</h2>
+                          <p>A webpage can contain various links that take you directly to other pages and even specific parts of a given page.These links are known as hyperlinks.</p>
+                          <a href="#">Learn More</a>
+                        </div>
+
+                        <div>
+                          <i class="fa-solid fa-mobile"></i>
+                          <h2>UI/UX Designing</h2>
+                          <p>A webpage can contain various links that take you directly to other pages and even specific parts of a given page.These links are known as hyperlinks.</p>
+                          <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                           <i class="fa-sharp fa-solid fa-pen-nib"></i>
+                           <h2>Graphic Designing</h2>
+                           <p>A webpage can contain various links that take you directly to other pages and even specific parts of a given page.These links are known as hyperlinks.</p>
+                           <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <!--Service section ends here-->
+
+         <!--porfolio section starts here-->
+          <div id="portfolio">
+              <div class="container">
+                   <h1 class="sub-title">My work</h1>
+                 <div class="work-list">
+                     <div class="work">
+                          <img src="logos/LOgn.jpg" alt="E-crush">
+                           <div class="layer">
+                               <h3>E-crush Logo & Branding</h3>
+                               <p>A webpage can contain various links that take you directly to other pages and even specific parts of a given page.These links are known as hyperlinks</p>
+                               <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                     </div>
+
+                     <div class="work">
+                         <img src="logos/Doctors.jpg" alt="Doctor's-day Poster">
+                         <div class="layer">
+                             <h3>Doctors-day Design</h3>
+                             <p>A webpage can contain various links that take you directly to other pages and even specific parts of a given page.These links are known as hyperlinks</p>
+                             <a href="#"><i class="fa-solid fa-link"></i></a>
+                          </div>
+                     </div>
+                      <div class="work">
+                         <img src="logos/kitchen.jpg" alt="E-crush">
+                            <div class="layer">
+                                <h3>E-crush Brand</h3>
+                                <p>A webpage can contain various links that take you directly to other pages and even specific parts of a given page.These links are known as hyperlinks</p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                          </div>
+                     </div>
+                 </div>
+              </div>
+         </div>
+
+         <!--porfolio section ends here-->
+
+         <!--Contact section starts here-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>nelunishaabdul2008@gmail.com </p>
+                        <p><i class="fa-solid fa-phone"></i>+91 7569705558</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Enter your Message" required></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                 </div>
+            </div>
+            <div class="copyright">
+                <p>copyright © Abdul Nelofor Shaik - IIIT <i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+         <!--Contact section ends here-->
+
+
+        <!--Tabs in About Section Script Starts-->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add('active-tab');
+            }
+        </script>
+         <!--Tabs in About Section Script Ends-->
+
+         <!--Side NavBar Script Starts-->
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <!--Side NavBar Script ends-->
+
+        <!--Script for Google sheets starts-->
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyVbxjD2CNkHBWeZf06JO7HXzzHLE_ZG3X8U0XNogYJZGtcNYZjEV7_xLUqb1e90GL8/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+
+            form.addEventListener('submit', e=> {
+                e.preventDefault()
+                fetch(scriptURL,{ method: 'POST', body:new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Thanks for Contacting us! Our team will get in touch with you shortly!"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!',error.message))
+            })
+        </script>
+
+        <!--Script for Google sheets ends-->
+
+    </body>
+</html>
